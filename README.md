@@ -14,6 +14,8 @@ After 20 epochs the training loss is 0.13 and validation loss 0.19
 
 ## Methods 
 
+I have used only SFT (Supervised Fine-tuning Trainer) to create submission because neither DPO or KTO haven't lead to valuable results.
+
 I tried to use various models to solve the quizes:
 
  "Qwen/Qwen2.5-3B-Instruct"
@@ -27,7 +29,7 @@ To quatize some models I have used BitsAndBytes.
 
 ## The best score:
 
-0.588
+Supervised Fine Tuning - 0.588
 
 ## Conclusions:
 
